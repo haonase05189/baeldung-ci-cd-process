@@ -1,0 +1,30 @@
+- create a new tag for the image :
+docker tag springboot-docker:latest springboot-docker:v1.0.0
+
+- login to your Docker Hub Account , create a repository
+docker tag springboot-docker:v1.0.0 haona9/springboot-docker:v1.0.0
+
+- push your own image to Docker Hub
+-- push to Docker Hub :
+docker push haona9/springboot-docker:v1.0.0
+
+-- pull from Docker Hub :
+docker pull haona9/springboot-docker:v1.0.0
+
+- Pull and start/run a container
+docker run -dp 8085:8083 \
+--name springboot-docker \	
+-v "$(pwd):/app"\
+haona9/springboot-docker:v1.0.0
+
+- check container 
+docker ps -a
+
+- remove image
+docker rmi -f imageID
+
+- run images
+docker run images id
+
+- update code
+docker restart springboot-docker-container

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/JAVAdockerexample.iml" filepath="$PROJECT_DIR$/.idea/JAVAdockerexample.iml" />
+      <module fileurl="file://$PROJECT_DIR$/dockerexample/dockerexample.iml" filepath="$PROJECT_DIR$/dockerexample/dockerexample.iml" />
+    </modules>
+  </component>
+</project>
