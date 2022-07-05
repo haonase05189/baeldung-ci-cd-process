@@ -18,7 +18,6 @@ docker run -dp 8085:8083 \
 haona9/springboot-docker:v1.0.0
 
 - check container 
-docker ps -a
 
 - remove image
 docker rmi -f imageID
