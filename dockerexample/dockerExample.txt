@@ -23,7 +23,8 @@ haona9/springboot-docker:v1.0.0
 docker rmi -f imageID
 
 - run images
-docker run images id
+docker run images id:wq
+
 
 - update code
 docker restart springboot-docker-container
